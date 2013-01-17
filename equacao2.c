@@ -11,8 +11,8 @@ int main(){
     scanf("%d", &valorc);	
     printf("Calculando...");
     int delta=valorb*valorb-4*valora*valorc;
-    int raizdelta=sqrt(delta);
-    printf("O valor de delta é: %d e sua raíz é %d \n",delta,raizdelta);
+    float raizdelta=sqrt(delta);
+    printf("O valor de delta é: %d e sua raíz é %f \n",delta,raizdelta);
     printf("Calculando os valores de x...\n");
     int x=(-valorb+raizdelta)/2*valora;
     int xx=(-valorb-raizdelta)/2*valora;
